@@ -70,9 +70,9 @@ You have been contacted by the local government to create a program that helps t
 | ----------- | ------------ |
 | new (the constructor)         | An `Election` object that has an attribute of year (string data type). |
 | Year        | The year of the election (string). |
-| Races       | An list of `Race` objects. |
+| Races       | A list of `Race` objects. |
 | AddRace(race)   | Add input to list of `Race` objects. |
-| AllCandidates()  | An list of all `Candidate` objects in the election. |
+| AllCandidates()  | A list of all `Candidate` objects in the election. |
 | VoteCounts() | A dictionary with each candidate's name as a key and their count of votes as the value. |
 
 
@@ -86,5 +86,5 @@ The local government agency has contacted you about compiling addition informati
 | ---------------------- | ------------ |
 | IsOpen                 | A boolean indicating whether the race is open or not. A race should be open by default. |
 | Close()                | Close the race (should no longer be open). |
-| 🌶️ Winner()      | `false` if the race is still open. It should return the candidate with the most votes if not open. If there is a tie, it should return any candidate with the highest number of votes. |
-| 🌶️ IsTie         | A boolean indicating if two or more candidates share the highest number of votes. |
+| 🌶️ Winner()			 | `false` if the race is still open. It should return the candidate with the most votes if not open. If there is a tie, it should return any candidate with the highest number of votes. |
+| 🌶️ IsTie				 | A boolean indicating if two or more candidates share the highest number of votes. |
